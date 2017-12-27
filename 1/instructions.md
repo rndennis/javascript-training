@@ -17,15 +17,14 @@
 
 ### Instructions
 
-1. Run `node 1.2.js`
-2. Complete the first TODO, run the script, and observe what happens
-3. Comment or delete the line you uncommented (line 20)
-4. Complete the second TODO, run the script, and observe what happens
+1. Run the script
+2. Complete the TODO and uncomment lines 22 and 23 after completion
+3. Run the script to verify your method works
 
 ### Post-lab Questions
 
-1. Why was `name` undefined?
-2. What does this structure resemble?
+1. Why was `this.trainer` still `Renee`?
+2. What does this construct resemble?
 
 ## 1.3 - var, let, and const
 
