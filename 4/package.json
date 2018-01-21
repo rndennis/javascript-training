@@ -1,7 +1,7 @@
 {
-  "name": "lab3",
+  "name": "lab4",
   "version": "1.0.0",
-  "description": "Lab 3",
+  "description": "Lab 4",
   "scripts": {
     "compile": "babel src -d dist",
     "start": "npm run compile && cd dist/ && node"
@@ -11,5 +11,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "node-fetch": "^1.7.3"
   }
 }

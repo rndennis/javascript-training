@@ -22,7 +22,7 @@
 
 1. Aren't arrow functions great?
 
-## Array Methods (filter, map, reduce)
+## 2.3 - Array Methods (filter, map, reduce)
 
 ### Instructions
 
