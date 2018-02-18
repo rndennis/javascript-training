@@ -3,12 +3,16 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = [{
+var primaryInstructor = {
   name: 'Joshua Hotz',
-  title: 'Application Developer',
-  primary: true
-}, {
+  title: 'Application Developer'
+};
+var secondaryInstructor = {
   name: 'Renee Dennis',
-  title: 'Associate Application Developer',
-  primary: false
-}];
+  title: 'Associate Application Developer'
+};
+
+exports.default = {
+  primaryInstructor: primaryInstructor,
+  secondaryInstructor: secondaryInstructor
+};

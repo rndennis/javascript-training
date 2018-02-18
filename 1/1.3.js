@@ -2,7 +2,7 @@
   /**
    * const: a block-scoped variable that cannot be reassigned
    */
-  const immutable = 'You can\t change me';
+  const immutable = "You can't change me";
   // TODO: Uncomment the following line and see what happens
   // immutable = 'I was changed';
 

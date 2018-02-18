@@ -24,7 +24,7 @@
 ### Post-lab Questions
 
 1. Why was `this.trainer` still `Renee`?
-2. What does this construct resemble?
+2. What does the `Pokedex` function resemble?
 
 ## 1.3 - var, let, and const
 

@@ -2,8 +2,5 @@
 
 ## TODO:
 
+* Promises (needs to be done in a lab prior to 4.2.js)
 * TypeScript
-* Imports/Exports
-* Async Programming
-* Destructuring
-* Spread/Rest

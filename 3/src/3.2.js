@@ -14,6 +14,7 @@ class Pokemon {
 
 class FirePokemon extends Pokemon {
   constructor() {
+    super();
     this.attacks = ['ember', 'fire blast', 'flame burst', 'inferno'];
   }
   // TODO: Override the the attack method using a random attack from the list of attacks

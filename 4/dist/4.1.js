@@ -1,42 +1,31 @@
 'use strict';
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _default = require('./resources/default');
 
-var _nodeFetch = require('node-fetch');
+var _default2 = _interopRequireDefault(_default);
 
-var _nodeFetch2 = _interopRequireDefault(_nodeFetch);
+var _named = require('./resources/named');
+
+var entertainment = _interopRequireWildcard(_named);
+
+var _resources = require('./resources');
+
+var _resources2 = _interopRequireDefault(_resources);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+// importing the entire module
 
-var StudioGhibliApi = function () {
-  function StudioGhibliApi() {
-    _classCallCheck(this, StudioGhibliApi);
-  }
+// named export
+console.log('instructors:', JSON.stringify(_default2.default, null, 2)); // named export, destructured
 
-  _createClass(StudioGhibliApi, null, [{
-    key: 'getAllFilms',
-    value: function getAllFilms() {
-      return (0, _nodeFetch2.default)('https://ghibliapi.herokuapp.com/films').then(function (response) {
-        return response.json();
-      });
-    }
-  }, {
-    key: 'getFilmById',
-    value: function getFilmById(id) {
-      return (0, _nodeFetch2.default)('https://ghibliapi.herokuapp.com/films/' + id).then(function (response) {
-        return response.json();
-      });
-    }
-  }]);
+// default export
 
-  return StudioGhibliApi;
-}();
+console.log('movies:', JSON.stringify(_named.movies, null, 2));
+console.log('tvShows:', JSON.stringify(_named.tvShows, null, 2));
+console.log('entertainment:', JSON.stringify(entertainment, null, 2));
 
-var filmsPromise = StudioGhibliApi.getAllFilms();
-var filmPromise = StudioGhibliApi.getFilmById(1);
-
-filmPromise.then(function (data) {
-  console.log(data);
-});
+console.log('resources.instructors:', JSON.stringify(_resources2.default.instructors, null, 2));
+console.log('resources.entertainment:', JSON.stringify(_resources2.default.entertainment, null, 2));

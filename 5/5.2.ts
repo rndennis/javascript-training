@@ -15,7 +15,7 @@ class Ingredient {
 
 /**
  * TODO: Implement a class 'Recipe' that fits the following criteria:
- * - mas a member variable that stores all of a recipe's ingredients
+ * - has a member variable that stores all of a recipe's ingredients
  * - has a way to get a formatted version of the recipe's ingredients
  * - has a method to add ingredients
  */
