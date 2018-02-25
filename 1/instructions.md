@@ -51,5 +51,3 @@
 
 1. Why was `items` undefined after moving the declaration/initialization?
 2. Do you think the same would happen with `let` and `const`? Try it out.
-3. Why did `getRandomPokemon` behave the same in both situations?
-4. Why was there no Reference Error?

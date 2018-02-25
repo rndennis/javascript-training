@@ -18,6 +18,6 @@ console.log(`Local: ${myPokedex.trainer}`);
 myPokedex.register('Dragonite');
 myPokedex.register('Combee', '1\'00"', '12.1 lbs.');
 
-// TODO: Write a method that returns a Pokemon in the Pokedex if it exist or false otherwise
+// TODO: Write a method, find(name), that returns a Pokemon if it exist in the registry or false otherwise
 // console.log(myPokedex.find('Pikachu'));  // should print 'false'
 // console.log(myPokedex.find('Dragonite'));  // should print '{ name: 'Dragonite', height: 'N/A', weight: 'N/A' }'
