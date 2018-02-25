@@ -1,5 +1,5 @@
 // TODO: Create a Pokemon class that takes name, height and weight in the constructor
-// TODO: Create a method off of your new class that pretty prints a pokemon
+// TODO: Create a method toString off of your new class that returns a formatted string representation of the pokemon
 
 class Pokedex {
   constructor(trainer) {
@@ -18,7 +18,6 @@ class Pokedex {
   find(name) {
     for (let i = 0; i < this.collection.length; i++) {
       if (this.collection[i].name === name) {
-        // TODO: Refactor the following line to use your new pretty print function
         return this.collection[i];
       }
     }
@@ -31,4 +30,5 @@ const myPokedex = new Pokedex('Josh');
 myPokedex.register('Dragonite');
 myPokedex.register('Combee', '1\'00"', '12.1 lbs.');
 
+// TODO: Refactor the following line to log the string representation of the pokemon object
 console.log(myPokedex.find('Combee'));
