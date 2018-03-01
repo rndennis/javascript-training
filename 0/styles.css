@@ -1,0 +1,28 @@
+.mdl-layout__header {
+  margin-bottom: 2.5em;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  max-width: 35em;
+  padding: 1em;
+}
+
+#goodbyeCount {
+  margin-left: 1em;
+}
+
+.text-center {
+  text-align: center;
+}

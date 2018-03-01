@@ -1,0 +1,13 @@
+{
+  "name": "lab0",
+  "version": "1.0.0",
+  "description": "Lab 0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "rnd",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "material-design-lite": "^1.3.0"
+  }
+}

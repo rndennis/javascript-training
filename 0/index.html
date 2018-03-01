@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 0</title>
+
+  <!-- TODO: Add jQuery and Material Design Lite (in that order) script tags here -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/material-design-lite/material.min.js"></script>
+
+  <!-- TODO: Add Material Design Lite stylesheet link tag here -->
+  <link rel="stylesheet" href="./node_modules/material-design-lite/material.min.css">
+
+  <!-- The following are also dependencies of Material Design Lite, but they're grabbed from Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
+  <!-- Local project stylesheet/script -->
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">Lorem ipsum</span>
+    </div>
+  </header>
+  <main class="mdl-layout__content flex-container-column">
+    <div class="flex-container-row">
+      <div class="flex-item">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget tristique velit, ac luctus enim. Morbi eu augue
+          rhoncus, pulvinar nulla nec, rutrum ex. Suspendisse porttitor, felis vel suscipit mollis, risus ligula tempus justo,
+          a placerat dolor lectus nec lorem. Maecenas id turpis in erat suscipit maximus. In eget ligula non diam efficitur
+          egestas sed non libero. Curabitur sagittis elit sed nulla auctor, quis porttitor ante efficitur. Pellentesque fermentum,
+          nunc quis fringilla luctus, ex dolor viverra leo, ut porttitor sapien quam quis quam. Nulla tincidunt diam a nunc
+          interdum, id posuere nunc convallis. Nam sollicitudin, lorem eu hendrerit aliquet, neque nulla placerat ex, id
+          fermentum leo nisl vel risus. Suspendisse sit amet faucibus nulla. Quisque quam libero, rhoncus at nisl a, efficitur
+          efficitur justo. Integer sit amet velit ac ligula interdum sollicitudin. Pellentesque eget arcu eget neque placerat
+          aliquam nec hendrerit nunc. Aenean ut mollis turpis, viverra dapibus augue.</p>
+      </div>
+      <div class="flex-item">
+        <div class="mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Hello World</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            <p class="text-center">
+              <span id="helloCount" class="mdl-badge" data-badge="0">Hellos</span>
+              <span id="goodbyeCount" class="mdl-badge" data-badge="0">Goodbyes</span>
+            </p>
+            <p>
+              Phasellus rhoncus ornare lorem cursus eleifend. Pellentesque sed ante tortor. Morbi quis nulla orci. In vitae euismod turpis.
+              Duis aliquam enim in dui tincidunt pellentesque. Vestibulum eros nunc, eleifend a elit vitae, placerat dictum
+              tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque
+              urna est, ultrices ac egestas vel, fringilla vel velit.
+            </p>
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a id="hello" class="mdl-button mdl-button--raised mdl-button--colored mdl-js-button mdl-js-ripple-effect">Hello</a>
+            <a id="goodbye" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Goodbye</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
