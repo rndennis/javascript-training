@@ -1,17 +1,15 @@
 (() => {
-  // TODO: Uncomment the block comment below to reveal some errored code
-  // (shortcut: highlight the block, alt + shift + a)
-  /* class Recipe {
+  class Recipe {
     ingredients: Array<string>;
     // alternative syntax for arrays: ingredients: string[]
 
-    constructor(private name: string, author) {
+    constructor(private name: string, private author: string) {
       this.name = name;
       this.author = author;
       this.ingredients = [];
     }
 
-    addIngredient(ingredient) {
+    addIngredient(ingredient: string) {
       this.ingredients.push(ingredient);
     }
 
@@ -21,5 +19,5 @@
         console.log(`- ${ingredient}`);
       });
     }
-  } */
+  }
 })();

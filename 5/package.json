@@ -1,11 +1,11 @@
 {
-  "name": "4",
+  "name": "lab5",
   "version": "1.0.0",
-  "description": "",
-  "main": "4.1.js",
+  "description": "Lab 5",
+  "main": "5.1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && cd js/ && node"
   },
-  "author": "",
+  "author": "rnd",
   "license": "ISC"
 }
